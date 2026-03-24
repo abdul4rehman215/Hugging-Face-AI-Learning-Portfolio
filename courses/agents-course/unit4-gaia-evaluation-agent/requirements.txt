@@ -1,0 +1,6 @@
+gradio>=5.0.0
+requests
+pandas
+openpyxl
+openai>=1.0.0
+youtube-transcript-api
