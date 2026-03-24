@@ -1,15 +1,18 @@
 # 🤗 Hugging Face AI Learning Portfolio
 
-> A documentation-first portfolio of my Hugging Face learning journey — currently featuring the **Agents Course**, with future expansion planned for additional Hugging Face learning tracks.
+### A documentation-first portfolio of my Hugging Face learning journey  
+### Currently featuring the **Agents Course**, with room to grow into future Hugging Face learning tracks
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Hugging%20Face-Learning%20Portfolio-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<div align="center">
+
+<p>
+  <img src="https://img.shields.io/badge/Hugging%20Face-AI%20Learning%20Portfolio-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/Current%20Focus-Agents%20Course-7B61FF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Active%20Portfolio-00C853?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Roadmap-MCP%20%2B%20LLM%20Courses-FF7043?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Future%20Tracks-MCP%20%2B%20LLM-FF7043?style=for-the-badge" />
 </p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Python-Implementation-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Gradio-App%20Development-FF4B4B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hugging%20Face-Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
@@ -17,38 +20,54 @@
   <img src="https://img.shields.io/badge/RAG-Agentic%20Systems-1565C0?style=for-the-badge" />
 </p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/github/repo-size/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio?style=for-the-badge" />
   <img src="https://img.shields.io/github/last-commit/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio?style=for-the-badge" />
   <img src="https://img.shields.io/github/stars/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio?style=for-the-badge" />
   <img src="https://img.shields.io/github/forks/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio?style=for-the-badge" />
 </p>
 
+</div>
+
 ---
 
-# 🎯 Executive Summary
+# 📌 Executive Summary
 
-This repository is my **long-term Hugging Face learning portfolio**.
+This repository is my **long-term Hugging Face AI learning portfolio**.
 
 It is designed to document:
-- ✅ completed Hugging Face course work
-- ✅ hands-on implementations
-- ✅ certificates and benchmark outcomes
-- ✅ project artifacts and screenshots
-- ✅ practical notes and future learning roadmap
 
-This is **not just a certificate dump** and **not just a single-project repository**.
+- ✅ completed Hugging Face course work  
+- ✅ hands-on implementations  
+- ✅ certificates and benchmark outcomes  
+- ✅ project artifacts and screenshots  
+- ✅ structured technical documentation  
+- ✅ future learning direction for upcoming Hugging Face tracks  
 
-It is a **connected AI learning portfolio** built to grow over time as I complete more Hugging Face courses and turn learning into implementation-focused projects.
+This is **not just a single project repo** and **not just a certificate archive**.
+
+It is a **connected learning portfolio** built to grow over time as I complete more Hugging Face learning paths and turn them into portfolio-quality implementations.
 
 ---
 
-# 📌 What This Repository Covers
+# 🧭 Quick Navigation
+
+- [`certificates/`](./certificates/) — earned certificates
+- [`courses/agents-course/`](./courses/agents-course/) — completed Hugging Face Agents Course work
+- [`courses/agents-course/unit4-gaia-evaluation-agent/`](./courses/agents-course/unit4-gaia-evaluation-agent/) — final benchmarked project
+- [`roadmap/`](./roadmap/) — future Hugging Face learning direction
+- [`assets/`](./assets/) — shared visuals and supporting media
+
+---
+
+# 🎯 Current Portfolio Scope
 
 At the moment, this repository contains my completed work from the:
 
 ## 🤖 Hugging Face Agents Course
-Covered:
+
+Covered areas include:
+
 - AI agent fundamentals
 - LLM-driven reasoning and action workflows
 - tools and API integration
@@ -56,9 +75,10 @@ Covered:
 - `LlamaIndex`
 - `LangGraph`
 - Agentic RAG
-- final GAIA-style benchmarked agent project
+- a final GAIA-style benchmarked agent project
 
 ### ✅ Current completed outcomes
+
 - Unit 1 certificate
 - final benchmark submission
 - **Certificate of Excellence**
@@ -66,91 +86,68 @@ Covered:
 
 ---
 
-# 🧠 Why This Repository Exists
+# 🏆 Featured Work
 
-I wanted one place to organize my Hugging Face learning journey in a way that is:
-
-- portfolio-friendly
-- implementation-focused
-- visually clear
-- easy for recruiters and reviewers to navigate
-- expandable for future Hugging Face courses
-
-This repository is intentionally broad enough to support future additions such as:
-- MCP-related course work
-- LLM-related course work
-- future Hugging Face projects and certifications
-
----
-
-# 🚀 Current Featured Work
-
-## 1. 🎓 Hugging Face Agents Course
-A complete course journey covering:
+## 1) 🤖 Hugging Face Agents Course
+A full course journey covering:
 - foundations of AI agents
 - frameworks for AI agents
 - Agentic RAG
-- final benchmarked capstone-style evaluation
+- final benchmarked evaluation
 
 📂 Folder: [`courses/agents-course/`](./courses/agents-course/)
 
 ---
 
-## 2. 🏁 Unit 4 — GAIA-Style Final Evaluation Agent
-This is my flagship Hands-On project from the Hugging Face Agents Course.
+## 2) 🏁 Unit 4 — GAIA-Style Evaluation Agent
+This is the flagship hands-on project currently featured in this portfolio.
 
 It includes:
 - a Gradio-based evaluation app
 - agent logic in Python
 - Hugging Face login flow
-- benchmark evaluation workflow
+- evaluation workflow
 - score/result documentation
 
 📂 Folder: [`courses/agents-course/unit4-gaia-evaluation-agent/`](./courses/agents-course/unit4-gaia-evaluation-agent/)
 
 ---
 
-## 3. 🏅 Certificates
+## 3) 🏅 Certificates
 This repository includes my Hugging Face course and unit certificates.
 
 📂 Folder: [`certificates/`](./certificates/)
 
 ---
 
-# 🧭 Repository Structure
+# 🧱 Repository Architecture
 
 ```text
 Hugging-Face-AI-Learning-Portfolio/
-├── assets/                    # shared visuals, banners, screenshots, supporting media
-├── certificates/              # earned certificates
-├── courses/                   # completed course work
-│   └── agents-course/         # current completed Hugging Face course
-└── roadmap/                   # future Hugging Face learning direction
+├── assets/                                      # shared visuals, supporting media, reusable assets
+├── certificates/                                # earned certificates
+│   ├── README.md
+│   └── agents-course/
+│       ├── Abdul_Rehman_HuggingFace_Fundamentals_of_Agents_Unit1_Certificate_2026-03-23.jpg
+│       └── Abdul_Rehman_HuggingFace_Agents_Course_Certificate_of_Excellence_2026-03-24.pdf
+├── courses/
+│   └── agents-course/
+│       ├── README.md
+│       └── unit4-gaia-evaluation-agent/
+│           ├── README.md
+│           ├── app.py
+│           ├── requirements.txt
+│           └── screenshots/
+│               └── final-score.png
+├── roadmap/
+│   └── README.md
+├── .gitignore
+└── README.md
 ````
 
 ---
 
-# 🗂️ Current Folder Overview
-
-## `certificates/`
-
-Stores earned certificates in a clean and searchable structure.
-
-## `courses/agents-course/`
-
-Contains my documented work from the Hugging Face Agents Course.
-
-## `courses/agents-course/unit4-gaia-evaluation-agent/`
-
-Contains the final evaluated agent project from Unit 4.
-
-## `roadmap/`
-
-Contains future learning direction for upcoming Hugging Face courses I plan to complete later.
-
----
-
-# 📚 Current Learning Coverage
+# 📚 Learning Coverage So Far
 
 ## Unit 1 — Introduction to Agents
 
@@ -183,40 +180,66 @@ Contains future learning direction for upcoming Hugging Face courses I plan to c
 
 ---
 
-# 🧩 Skills Demonstrated So Far
+# 📈 Current Progress Snapshot
 
-<p align="left">
-  <img src="https://img.shields.io/badge/AI%20Agents-Agent%20Design-7B61FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Python-Implementation-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-Agent%20Workflows-8E24AA?style=flat-square" />
-  <img src="https://img.shields.io/badge/Tool%20Calling-API%20Integration-00897B?style=flat-square" />
-  <img src="https://img.shields.io/badge/RAG-Agentic%20RAG-1565C0?style=flat-square" />
-  <img src="https://img.shields.io/badge/smolagents-Framework-FF7043?style=flat-square" />
-  <img src="https://img.shields.io/badge/LlamaIndex-Framework-2E7D32?style=flat-square" />
-  <img src="https://img.shields.io/badge/LangGraph-Workflow%20Orchestration-C62828?style=flat-square" />
-  <img src="https://img.shields.io/badge/LLM%20Evaluation-Benchmarking-6A1B9A?style=flat-square" />
-</p>
+| Track                            | Status      | Notes                                               |
+| -------------------------------- | ----------- | --------------------------------------------------- |
+| Hugging Face Agents Course       | ✅ Completed | Includes certificates and final benchmarked project |
+| Future Hugging Face Learning     | 🟡 Planned  | Repository is designed to expand over time          |
+| Additional Hugging Face Projects | 🟡 Planned  | To be added as future course work is completed      |
 
 ---
 
-# 🌱 Future Learning Roadmap
+# 🧠 Skills Demonstrated So Far
 
-This repository is intentionally designed to expand as I continue my Hugging Face learning journey.
+<div align="left">
 
-Planned future additions include:
+![AI Agents](https://img.shields.io/badge/AI%20Agents-Agent%20Design-7B61FF?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Implementation-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-FFD21E?style=flat-square\&logo=huggingface\&logoColor=black)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-Agent%20Workflows-8E24AA?style=flat-square)
+![Tool Calling](https://img.shields.io/badge/Tool%20Calling-API%20Integration-00897B?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-Agentic%20RAG-1565C0?style=flat-square)
+![smolagents](https://img.shields.io/badge/smolagents-Framework-FF7043?style=flat-square)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-Framework-2E7D32?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-Workflow%20Orchestration-C62828?style=flat-square)
+![LLM Evaluation](https://img.shields.io/badge/LLM%20Evaluation-Benchmarking-6A1B9A?style=flat-square)
 
-* Model Context Protocol (MCP) learning
-* LLM course notes and implementations
-* more Hugging Face projects and certificates
-* improved notes, writeups, and experiments
+</div>
+
+---
+
+# 🌱 Why This Repository Matters
+
+I wanted one place to organize my Hugging Face learning journey in a way that is:
+
+* portfolio-friendly
+* implementation-focused
+* visually clean
+* easy for recruiters and reviewers to navigate
+* broad enough for future Hugging Face learning
+* strong enough to act as a long-term AI portfolio repository
+
+This repo is intentionally built to support future additions without pretending they are already completed.
+
+---
+
+# 🛣️ Future Direction
+
+This repository is intentionally broad enough to expand later with:
+
+* additional Hugging Face learning tracks
+* more projects and experiments
+* future certificates
+* improved notes and technical writeups
+* side-by-side comparisons across AI learning topics
 
 See:
 [`roadmap/README.md`](./roadmap/README.md)
 
 ---
 
-# 🧪 How To Navigate This Repository
+# 🔍 How To Use This Repository
 
 ### Recommended reading order
 
@@ -224,20 +247,6 @@ See:
 2. Review the final project in [`unit4-gaia-evaluation-agent/`](./courses/agents-course/unit4-gaia-evaluation-agent/)
 3. Check certificates in [`certificates/`](./certificates/)
 4. Review future direction in [`roadmap/`](./roadmap/)
-
----
-
-# 📈 Portfolio Intent
-
-This repository is meant to show:
-
-* practical implementation
-* structured learning
-* course-to-project transition
-* clean technical documentation
-* long-term portfolio growth
-
-It is designed to become a **single home for my Hugging Face AI learning journey** over time.
 
 ---
 
@@ -261,6 +270,6 @@ Cybersecurity • Linux • AWS Monitoring • AI Automation • AI Learning Por
 
 ---
 
-## ⭐ Final Note
+# ⭐ Final Note
 
-This repository will continue to grow as I complete more Hugging Face learning tracks and convert them into portfolio-quality documentation and implementations.
+This repository will continue to grow as I complete more Hugging Face learning tracks and convert them into implementation-focused, portfolio-quality documentation and projects.
