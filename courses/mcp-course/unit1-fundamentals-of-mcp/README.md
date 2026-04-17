@@ -1,137 +1,196 @@
-# 📘 Unit 1: Fundamentals of MCP
+# 🔌 Hugging Face MCP Course
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Unit-1-7B61FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Topic-Fundamentals%20of%20MCP-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Status-Completed-00C853?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Certificate-Achievement-FF7043?style=for-the-badge" />
+<div align="center">
+
+<p>
+  <img src="https://img.shields.io/badge/Course-Hugging%20Face%20MCP%20Course-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Status-Ongoing-FF9800?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Unit%201-Fundamentals%20Completed-00C853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Unit%202-Hands--On%20Documented-7B61FF?style=for-the-badge" />
 </p>
+
+<p>
+  <img src="https://img.shields.io/badge/MCP-Architecture%20%26%20Protocol-1565C0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Gradio-MCP%20Server%20%26%20Client-FF4B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Continue-CLI%20Integration-8E24AA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tiny%20Agents-End--to--End%20Tool%20Use-2E7D32?style=for-the-badge" />
+</p>
+
+</div>
 
 ---
 
 # 🎯 Overview
 
-This unit introduced the **foundational concepts of the Model Context Protocol (MCP)** and how it enables AI systems to connect with external tools, resources, and services through a standardized interface.
+This folder documents my progress in the **Hugging Face MCP Course** inside my broader Hugging Face AI learning portfolio.
 
-It focused on both the **theory** and the **practical developer view** of MCP, including architecture, message flow, capability types, SDK usage, client configuration, and Hugging Face specific MCP integrations.
+At this stage, the folder covers:
 
----
+- ✅ **Unit 1 — Fundamentals of MCP**
+- ✅ **Unit 2 hands-on practice** for building an end-to-end MCP application
+- ✅ **working implementation notes** from an EC2-based practice setup
+- ✅ **code/config files** for the MCP server and multiple client styles
+- ✅ **renamed screenshots** that show the practical workflow and results
 
-# 🧠 Key Concepts Learned
-
-## 🔹 1. What is MCP?
-- MCP stands for **Model Context Protocol**
-- it is a standardized protocol for connecting AI models with tools, data sources, and environments
-- it improves interoperability across different AI applications and external systems
-
-## 🔹 2. The Integration Problem
-- without standardization, AI developers face the **M×N integration problem**
-- each AI application would need separate custom integrations for each tool or data source
-- MCP reduces this complexity by defining a consistent interface
-
-## 🔹 3. Core MCP Terminology
-- **Host** — the user-facing AI application
-- **Client** — the component that manages communication with a specific MCP server
-- **Server** — the external program or service exposing capabilities through MCP
-- **Capabilities** — what the server offers to the client
-
-## 🔹 4. MCP Architecture
-- MCP uses a **client-server architecture**
-- clients typically maintain **1:1 relationships** with servers
-- the architecture is modular and designed for extensibility
-
-## 🔹 5. Communication Protocol
-- MCP uses **JSON-RPC 2.0** as its message format
-- it supports:
-  - requests
-  - responses
-  - notifications
-- common transport patterns include:
-  - `stdio` for local integrations
-  - `HTTP + SSE / Streamable HTTP` for remote integrations
-
-## 🔹 6. MCP Capabilities
-- **Tools** — executable functions that can perform actions
-- **Resources** — read-only context/data sources
-- **Prompts** — reusable templates or interaction patterns
-- **Sampling** — controlled model generation support inside workflows
-
-## 🔹 7. MCP SDK Concepts
-- official SDKs simplify implementation of MCP clients and servers
-- SDKs handle protocol communication, serialization, discovery, and connection management
-- FastMCP-style server building provides a cleaner developer experience
-
-## 🔹 8. MCP Clients
-- learned the role of MCP clients in real workflows
-- explored configuration patterns such as `mcp.json`
-- looked at client environments including:
-  - VS Code
-  - Cursor
-  - Zed
-  - Claude Desktop
-
-## 🔹 9. Hugging Face MCP Server
-- learned how the Hugging Face MCP Server connects MCP-compatible assistants to the Hugging Face Hub
-- explored use cases such as searching:
-  - models
-  - datasets
-  - Spaces
-  - papers
-- understood how built-in tools and community tools can be surfaced through MCP
-
-## 🔹 10. Gradio MCP Integration
-- learned how Gradio apps can act as MCP servers
-- explored launching Gradio with MCP enabled
-- understood how standard functions can be automatically converted into MCP tools
+The course itself is still ongoing for me, so this folder is written honestly as **completed fundamentals + documented hands-on practice**, not as a full-course completion claim.
 
 ---
 
-# 🛠️ Practical Exposure In This Unit
+# 🧭 Quick Navigation
 
-Through this unit, I built understanding of how MCP is used in modern AI tooling and developer workflows, including:
-
-- reading MCP architecture and message lifecycle concepts
-- understanding how clients discover and call tools
-- learning the role of transport protocols in MCP communication
-- seeing how SDKs simplify server implementation
-- understanding how Hugging Face and Gradio make MCP more accessible in practice
+- [`unit1-fundamentals-of-mcp/`](./unit1-fundamentals-of-mcp/) — Unit 1 notes, resources, and certificate
+- [`unit2-end-to-end-mcp-application/`](./unit2-end-to-end-mcp-application/) — Unit 2 practical build, code, configs, screenshots, and notes
 
 ---
 
-# 📂 Files In This Folder
+# 📚 Current Progress Snapshot
 
-- `README.md` — unit overview and learning summary
-- `unit1-notes.md` — detailed structured notes from Unit 1
-- `official-resources.md` — organized list of the official pages covered in this unit
-- `certificate.jpg` — earned certificate for Unit 1
-
----
-
-# 🎯 Key Takeaways
-
-- I now understand the purpose and architecture of MCP
-- I can explain the difference between host, client, and server in MCP systems
-- I understand how JSON-RPC and transport layers support MCP communication
-- I understand the main capability types exposed by MCP servers
-- I have practical familiarity with MCP SDKs, client setup, the Hugging Face MCP Server, and Gradio-based MCP exposure
+| Section | Focus | Status |
+|---|---|---|
+| Unit 1 | MCP fundamentals, architecture, protocol, SDK, clients, Hugging Face MCP Server, Gradio MCP integration | ✅ Completed |
+| Unit 2 | End-to-end MCP application with Gradio server and multiple clients | ✅ Practical sections documented |
+| Unit 3+ | Advanced MCP development and later sections | ⏳ Not yet documented here |
 
 ---
 
-# 🏆 Certificate
+# 🧠 What This Folder Covers
 
-![Fundamentals of MCP Certificate](./certificate.jpg)
+## 1) Unit 1 — Fundamentals of MCP
+This section captures the theory and foundation:
+- what MCP is and why it matters
+- the M×N integration problem
+- host / client / server roles
+- JSON-RPC communication and transports
+- capabilities such as tools, resources, prompts, and sampling
+- official SDK concepts
+- MCP clients
+- Hugging Face MCP Server
+- Gradio MCP integration
+
+## 2) Unit 2 — End-to-End MCP Application
+This section captures the practical build path:
+- building a Gradio MCP server for sentiment analysis
+- verifying the schema and MCP endpoints
+- configuring MCP clients
+- using Continue as a coding-assistant style MCP client
+- building a Gradio UI as an MCP client
+- connecting Tiny Agents to the MCP server
+- documenting the AMD/Lemonade section honestly as a hardware-specific/local workflow, not an EC2 build
 
 ---
 
-# 📊 Status
+# 🧪 Practical Setup Documented Here
 
-✅ Completed  
-🚧 Continuing the full MCP Course
+The Unit 2 work in this folder is based on a **two-instance AWS EC2 practice setup**:
+
+- **MCP server instance**
+  - hosted the Gradio sentiment analysis MCP server
+- **MCP client instance**
+  - tested remote MCP connectivity
+  - ran Continue CLI
+  - ran a Gradio MCP client
+  - ran Tiny Agents through `mcp-remote`
+
+Public or internal IP values used during practice have **not** been hardcoded into the public code/config files in this folder.  
+Templates are written with **placeholders or environment variables** so the repo stays clean and reusable.
 
 ---
 
-# 🔜 Next Steps
+# 🗂️ Folder Structure
 
-- move from MCP fundamentals into hands-on MCP application work
-- document future MCP units in the same portfolio structure
-- add deeper implementation examples as I progress in the course
+```text
+mcp-course/
+├── README.md
+├── unit1-fundamentals-of-mcp/
+│   ├── README.md
+│   ├── unit1-notes.md
+│   ├── official-resources.md
+│   └── unit1-fundamentals-of-mcp-certificate.jpg
+└── unit2-end-to-end-mcp-application/
+    ├── README.md
+    ├── unit2-notes.md
+    ├── official-resources.md
+    ├── implementations/
+    │   ├── client-configs/
+    │   │   ├── README.md
+    │   │   ├── config.json
+    │   │   ├── mcp.json
+    │   │   └── server.env.example
+    │   ├── continue-cli-client/
+    │   │   ├── README.md
+    │   │   └── config.yaml
+    │   ├── gradio-mcp-client/
+    │   │   ├── README.md
+    │   │   ├── app.py
+    │   │   └── requirements.txt
+    │   ├── gradio-mcp-server/
+    │   │   ├── README.md
+    │   │   ├── app.py
+    │   │   └── requirements.txt
+    │   └── tiny-agents-client/
+    │       ├── README.md
+    │       ├── agent.json
+    │       └── package-notes.md
+    └── screenshots/
+        ├── 01-gradio-server-ui.png
+        ├── 02-mcp-schema-output.png
+        ├── 03-continue-cli-connected.png
+        ├── 04-gradio-mcp-client-ui.png
+        ├── 05-smolagents-tool-call-log.png
+        ├── 06-tiny-agents-tool-call.png
+        └── README.md
+```
+
+---
+
+# 🧩 Skills Demonstrated In This Folder
+
+<div align="left">
+
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-MCP-7B61FF?style=flat-square)
+![Architecture](https://img.shields.io/badge/Architecture-Host%20%2F%20Client%20%2F%20Server-1565C0?style=flat-square)
+![JSON-RPC](https://img.shields.io/badge/Protocol-JSON--RPC-00897B?style=flat-square)
+![Tool Calling](https://img.shields.io/badge/Tool%20Calling-Workflow%20Integration-8E24AA?style=flat-square)
+![Gradio](https://img.shields.io/badge/Gradio-MCP%20Server%20%26%20Client-FF4B4B?style=flat-square)
+![Continue](https://img.shields.io/badge/Continue-CLI%20Client-6A1B9A?style=flat-square)
+![Tiny Agents](https://img.shields.io/badge/Tiny%20Agents-MCP%20Tool%20Use-2E7D32?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Implementation-3776AB?style=flat-square&logo=python&logoColor=white)
+![API Integration](https://img.shields.io/badge/API%20Integration-Remote%20MCP%20Connections-455A64?style=flat-square)
+![AWS EC2](https://img.shields.io/badge/AWS-EC2%20Practice%20Environment-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+</div>
+
+---
+
+# 🏅 Included Evidence
+
+This folder includes both **documentation** and **practical artifacts**:
+
+- course-aligned README sections
+- structured notes
+- official resource lists
+- working code/config templates
+- screenshots from the hands-on flow
+- Unit 1 certificate image
+
+---
+
+# 🚧 Status Note
+
+This folder is intentionally written in a **portfolio-safe way**:
+
+- Unit 1 is presented as **completed**
+- Unit 2 is presented as **practiced and documented**
+- later units are **not claimed as completed**
+- hardware/local-only sections are **not overclaimed** when they were only reviewed conceptually
+
+---
+
+# 🔜 Next Expansion Points
+
+When I continue the course later, this folder can be extended with:
+
+- advanced MCP workflow servers
+- more robust MCP applications
+- additional certificates or recap material
+- improved implementation variants beyond the current EC2-based practice set
