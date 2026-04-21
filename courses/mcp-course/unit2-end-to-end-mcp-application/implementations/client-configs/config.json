@@ -1,7 +1,0 @@
-{
-  "mcpServers": {
-    "mcp": {
-      "url": "http://YOUR_SERVER_PRIVATE_IP:7860/gradio_api/mcp/sse"
-    }
-  }
-}
