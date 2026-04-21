@@ -167,9 +167,8 @@ The final CI failure alert was delivered into the Slack channel, completing the 
 - `ec2-practice-setup.md` — machine mapping and command flow summary
 
 ## Reusable Assets
-- `templates/` — PR template set used by the workflow server
 - `unit3-mcp-for-production-automation-certificate.jpg` — Unit 3 certificate
-- `screenshots/` — renamed screenshots from the full workflow
+- `screenshots/` — screenshots from the full workflow
 
 ## Implementation Files
 - `implementations/module1-build-mcp-server/`
