@@ -289,7 +289,7 @@ After finishing this unit, the biggest things I now understand are:
 
 ---
 
-# 14. Next Learning Direction
+# 14. Next Learning Direction [ Did in unit 2 ]
 
 The next step after this unit is moving deeper into:
 - hands-on MCP applications
