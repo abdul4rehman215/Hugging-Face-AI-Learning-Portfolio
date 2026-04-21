@@ -1,31 +1,123 @@
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
 *.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
 .venv/
 venv/
 env/
+ENV/
 
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
 # Environment / secrets
+# =========================
 .env
 .env.*
 *.env
+*.secret
+*.secrets
+secrets.*
+*.key
+*.pem
 
-# IDE
+# Local runtime exports
+server.env
+
+# =========================
+# IDE / Editor
+# =========================
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
+# =========================
 # OS files
+# =========================
 .DS_Store
 Thumbs.db
+Desktop.ini
 
+# =========================
 # Logs
+# =========================
 *.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Temp / build
+# =========================
+# Temp / build / cache
+# =========================
 tmp/
 temp/
 build/
 dist/
+.cache/
+coverage/
+
+# =========================
+# Node / JS
+# =========================
+node_modules/
+.npm/
+.pnpm-store/
+
+# =========================
+# Hugging Face / course project specific
+# =========================
+# Large local model / tool data
+.ollama/
+ollama.log
+
+# Continue / local CLI state
+.continue/
+continue.log
+
+# Generated event/state files
+github_events.json
+
+# Runtime artifacts
+nohup.out
+*.pid
+
+# Local uploaded / generated files
+downloads/
+output/
+outputs/
+artifacts/
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
