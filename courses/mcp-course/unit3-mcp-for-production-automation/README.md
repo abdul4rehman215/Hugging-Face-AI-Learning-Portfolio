@@ -202,7 +202,7 @@ By the end of this unit, I had hands-on experience with:
 
 ✅ Completed  
 ✅ Practical workflow verified end-to-end  
-🚧 Full MCP Course still in progress
+✅ Full MCP Course completed
 
 ---
 
