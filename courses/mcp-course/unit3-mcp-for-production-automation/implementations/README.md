@@ -8,7 +8,7 @@ This directory contains the practical files reconstructed from the Unit 3 hands-
 - `module3-slack-notification/` — Slack-enabled workflow server, webhook helper, env template, and manual-test assets
 
 ## Public repo note
-These files are structured to be publishable:
+
 - no real webhook URLs
 - no API keys or secrets
 - sanitized event examples only
