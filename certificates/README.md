@@ -145,4 +145,3 @@ They are archived here as formal proof of progress, while the deeper technical w
 
 
 If you want, I can also give you a more premium version with small badge sections and a cleaner GitHub-style visual layout matching the upgraded main README.
-```
