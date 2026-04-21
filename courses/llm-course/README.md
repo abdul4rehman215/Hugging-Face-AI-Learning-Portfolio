@@ -13,6 +13,8 @@ It covers:
 
 ---
 
+<!--
+
 ## 📚 Progress
 
 | Unit | Topic | Status |
@@ -23,6 +25,7 @@ It covers:
 | Unit 4 | (Upcoming) | ⏳ Planned |
 
 ---
+-->
 
 ## 🎯 Goal
 To build a deep understanding of LLMs and apply them in real-world AI applications through hands-on experimentation.
@@ -35,10 +38,7 @@ To build a deep understanding of LLMs and apply them in real-world AI applicatio
 ---
 
 ## 🚀 Status
-🚧 Course in Progress — actively learning and updating this repository.
+✅ Course Completed
 
 ---
 
-## 🔗 Portfolio
-This repository is part of my broader AI learning portfolio:
-👉 https://github.com/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio
