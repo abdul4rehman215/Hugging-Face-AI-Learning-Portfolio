@@ -186,11 +186,6 @@ This shows Tiny Agents loading the MCP tool and calling it successfully through 
 - Gradio MCP client implementation
 - Tiny Agents configuration and notes
 
-## Screenshots
-Renamed screenshots are included to make the documentation readable and portfolio-friendly.
-
-Sensitive IPs/endpoints used during the original EC2 practice have been **removed or replaced** in the public code/config files, and screenshots used here avoid exposing the raw setup details.
-
 ---
 
 # 🧠 Key Takeaways
