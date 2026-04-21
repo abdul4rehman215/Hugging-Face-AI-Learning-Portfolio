@@ -1,0 +1,18 @@
+{
+  "action": "completed",
+  "repository": {
+    "full_name": "abdul4rehman215/Linux-Industrial-Security-Basics"
+  },
+  "sender": {
+    "login": "abdul4rehman215"
+  },
+  "workflow_run": {
+    "name": "ci",
+    "status": "completed",
+    "conclusion": "failure",
+    "event": "push",
+    "html_url": "https://github.com/abdul4rehman215/Linux-Industrial-Security-Basics/actions/runs/123456789",
+    "run_number": 42,
+    "head_branch": "mcp-module2-webhook-test"
+  }
+}
