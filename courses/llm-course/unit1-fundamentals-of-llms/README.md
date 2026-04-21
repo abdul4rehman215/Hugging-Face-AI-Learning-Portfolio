@@ -71,7 +71,6 @@ It focuses on understanding how transformer-based architectures work and how the
 
 ## 📊 Status
 ✅ Completed  
-🚧 Continuing the full LLM Course
 
 ---
 
