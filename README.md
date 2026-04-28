@@ -29,6 +29,12 @@
 
 </div>
 
+<div align="center">
+
+<img src="https://github.com/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio/blob/main/assets/Hf-logo-with-title.svg" width="900"/>
+
+</div>
+
 ---
 
 # 📌 Executive Summary
