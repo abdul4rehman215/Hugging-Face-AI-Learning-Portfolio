@@ -29,12 +29,6 @@
 
 </div>
 
-<div align="center">
-
-<img src="https://github.com/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio/blob/main/assets/Hf-logo-with-title.svg" width="900"/>
-
-</div>
-
 ---
 
 # 📌 Executive Summary
@@ -401,6 +395,17 @@ The `roadmap/` directory can now be used as a **next-phase project and experimen
 
 ---
 
+# ⭐ Final Note
+
+This repository captures a full Hugging Face learning journey across **Agents**, **LLMs**, and **MCP** in a way that is structured, practical, and portfolio-ready.
+
+It is both:
+
+* a record of what I completed
+* and a base I can continue building from through deeper real-world AI engineering work
+
+---
+
 # 👨‍💻 Author
 
 **Abdul Rehman**
@@ -421,12 +426,8 @@ Cybersecurity • Linux • AWS • AI Automation • AI Agents • LLM & MCP Le
 
 ---
 
-# ⭐ Final Note
+<div align="center">
 
-This repository captures a full Hugging Face learning journey across **Agents**, **LLMs**, and **MCP** in a way that is structured, practical, and portfolio-ready.
+<img src="https://github.com/abdul4rehman215/Hugging-Face-AI-Learning-Portfolio/blob/main/assets/Hf-logo-with-title.svg" width="900"/>
 
-It is both:
-
-* a record of what I completed
-* and a base I can continue building from through deeper real-world AI engineering work
-
+</div>
