@@ -205,6 +205,14 @@ By the end of this unit, I had hands-on experience with:
 
 ---
 
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_mcp-for-production-automation-ai-learning-activity-7462419323693785088-YLPE?)
+
+---
+
 # 🔜 Extension Ideas
 
 Good next upgrades for this project later:
